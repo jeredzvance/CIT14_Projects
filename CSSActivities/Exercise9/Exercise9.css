@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .parent-box {
+    background-color: #fff;
+    border: 2px solid #333;
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .child-box {
+    background-color: #add8e6;
+    border: 2px solid #0077cc;
+    padding: 15px;
+    margin-top: 10px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  p {
+    margin-bottom: 0;
+    color: #333;
+  }
