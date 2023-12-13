@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    max-width: 300px; /* Adjust the maximum width as needed */
+  }
