@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 20px;
+    background-color: #add8e6;
+    border: 2px solid #0077cc;
+    text-align: center;
+    line-height: 100px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
