@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+  }
+  
+  #box1 {
+    background-color: #ffcccb;
+    border: 2px solid #ff6666;
+    margin-right: 20px;
+    padding: 10px;
+  }
+  
+  #box2 {
+    background-color: #b0e57c;
+    border: 2px solid #4caf50;
+    margin-right: 20px;
+    padding: 20px;
+  }
+  
+  #box3 {
+    background-color: #add8e6;
+    border: 2px solid #0077cc;
+    padding: 30px;
+  }
